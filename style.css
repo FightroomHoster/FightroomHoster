@@ -519,9 +519,9 @@ a:active {
     background-image:url(https://cdn.discordapp.com/attachments/980037671835541556/1000719293085917184/banner.png);
     width: 1518px;
     height: 202px;
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
+    
+    display: flex;
+    justify-content: center;
 }
 
 .maintitle {
