@@ -520,9 +520,8 @@ a:active {
     width: 1518px;
     height: 202px;
     
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    place-items: center;
 }
 
 .maintitle {
