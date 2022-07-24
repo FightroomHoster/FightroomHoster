@@ -272,7 +272,7 @@ p {
 }
 
 .impressum {
-    color:blueviolet
+    color:#D8CDCB;
 }
 
 #nav a {
@@ -281,7 +281,7 @@ p {
 }
 
 #ChangeLog {
-    color: aqua;
+    color: #8FA68E;
     font-size:30px;
     display:flex;
     flex-direction: column;
@@ -303,11 +303,12 @@ p {
 
 #Hauptmap {
     font-size: 30px;
-    color: orangered
+    color: #A4C7C3;
 }
 
 #Hauptmap a {
-    font-size: 150px
+    font-size: 90px
+    color: #A4C7C3;
 }
 
 .body {
