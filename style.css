@@ -303,12 +303,20 @@ p {
 
 #Hauptmap {
     font-size: 110px;
-    color: #A4C7C3;
+    color: #66AC8D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 #Hauptmap a {
     font-size: 110px
-    color: #A4C7C3;
+    color: #66AC8D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .body {
