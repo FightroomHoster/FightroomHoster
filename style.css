@@ -23,8 +23,8 @@ p {
     background-size: cover;
     background-position: center;
 }
-
 #logo_text a {
+
     font-size: 50px;
     text-decoration: none;
     color: purple;
@@ -518,7 +518,7 @@ a:active {
 .banner {
     background-image: url(https://cdn.discordapp.com/attachments/980037671835541556/1000719293085917184/banner.png);
     width: 1938px;
-    height: 302px;
+    height: 290px;
     margin-left: 0;
     margin-top: 0;
     margin-right: 0;
