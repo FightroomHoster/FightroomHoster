@@ -660,3 +660,385 @@ a:hover {
     font-size: 18px;
     margin-left: 15px;
 }
+
+.body1 {
+    color:#2a2a2a;
+}
+
+.title2 {
+    font-size: 50px;
+    color:lightsteelblue;
+
+    position: absolute;
+    top: 30px;
+    left: 20%;
+} 
+
+.text1 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:azure;
+    font-size: 35px;
+
+    position:  absolute;
+    left: 50px;
+    top: 20%;
+}
+
+.info {
+    font-size: 40px;
+}
+
+.vorwort {
+    font-size: 39px;
+}
+
+.inhalt {
+    font-size: 40px;
+}
+
+.new {
+    font-size: 37px;
+}
+
+.change {
+    font-size: 37px;
+}
+
+.credits {
+    font-size: 39px;
+}
+
+.following {
+    font-size: 39px;
+}
+
+#footer a {
+    text-decoration: none;
+    color:darkviolet;
+}
+
+#footer a:hover {
+    text-decoration: none;
+    color:hotpink;
+}
+
+.footer {
+    font-size: 10px;
+
+    position:absolute;
+    top: 300%;
+    left: 40%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bodyr {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: #2a2a2a;
+}
+
+.strich {
+    border-left: 6px solid #3B3F3D;
+    height:90%;
+    position: absolute;
+    left: 16%;
+    margin-left: 45px;
+    top: 300px;
+    bottom: 10%;
+
+    scrollbar-height: 100px;
+}
+
+.dc-title {
+    color:#8B3D4E;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 8px;
+}
+
+.dc-text {
+    margin-left: 8px;
+    color: #B198B2;
+}
+
+.dc-link {
+    margin-left: 8px;
+    color: #CB5180;
+}
+
+.logo {
+    width: 3%;
+    height: 3%;
+
+    position: absolute;
+    left: 14px;
+    top: 14px;
+}
+
+.logo-text {
+    color:#E96064;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 36px;
+    position: absolute;
+    top: 10px;
+    left: 17%;
+}
+
+.playnow {
+    color:#83B5C7;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 28px;
+    position: absolute;
+    top: 100px;
+    right: 8%;
+}
+
+.iptitle {
+    color:#EC5048;
+    font-size: 40px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    right:245px;
+    top: 10px;
+}
+
+.ip {
+    color:#E9F4F4;
+    font-size: 39px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    right: 19%;
+    top: 50px;
+}
+
+.line {
+    width: 100%;
+    height: 6px;
+    border: 0 none;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: -4px;
+    background-color: #3B3F3D;
+}
+
+.dc-link a:hover {
+    color: #C75C60;
+    text-decoration: none;
+}
+
+.dc-link a {
+    color: #E5334F;
+    text-decoration: none;
+}
+
+.navig {
+    color:#3B3B4C;
+    font-size: 26px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position:absolute;
+    top: 18%;
+    left: 28%;
+}
+
+#navi a {
+    color:#4356A8;
+    text-decoration: none;
+}
+
+#navi a:hover {
+    color: #4781BF;
+    text-decoration: none;
+}
+
+.news {
+    position: absolute;
+    left:500px;
+    top: 300px;
+    color:aliceblue;
+}
+
+.new1 {
+    color:lightgray;
+    padding: 20px;
+    border: 5px solid #28272E;
+    font-size: larger;
+    background-color: #28272E;
+
+    position: absolute;
+    top: 350px;
+    left: 420px;
+
+    width: 38%;
+}
+
+#news a {
+    color:darkcyan;
+    text-decoration: none;
+}
+
+#news a:hover {
+    color: cyan;
+    text-decoration: none;
+}
+
+.footer {
+    font-family: monospace;
+    font-size: 15px;
+    color:gray;
+
+    position: absolute;
+    left: 40%;
+    top: 1200px;
+}
+
+#footer a {
+    color:darkslategrey;
+    text-decoration: none;
+}  
+
+#footer a:hover {
+    color:darkcyan;
+    text-decoration: none;
+}
+
+@media (max-width: 800px) {
+    .ip {
+        font-size: 0px;
+    }
+
+    .iptitle {
+        font-size: 0px;
+    }
+
+    .logo {
+        background-image: url(https://cdn.discordapp.com/attachments/980037671835541556/1002553139909636187/banner.png);
+        height: 30%;
+        width: 60%;
+    }
+
+    .strich {
+        border-left: 0px solid #3B3F3D;
+        height:90%;
+        position: absolute;
+        left: 16%;
+        margin-left: 45px;
+        top: 300px;
+        bottom: 1px;
+    }
+
+    .dc-text {
+        font-size: 0px;
+    }
+
+    .dc-link {
+        font-size: 25px;
+        
+        position: absolute;
+        left: 8px;
+        top: 400px;
+    }
+
+    .news {
+        position: absolute;
+        left:500px;
+        top: 300px;
+        color:aliceblue;
+    }
+    
+    .new1 {
+        color:lightgray;
+        padding: 20px;
+        border: 5px solid #28272E;
+        font-size: larger;
+        background-color: #28272E;
+    
+        position: absolute;
+        top: 500px;
+        left: 50px;
+    
+        width: 79%;
+    }
+
+    #news a {
+        color:darkcyan;
+        text-decoration: none;
+    }
+    
+    #news a:hover {
+        color: cyan;
+        text-decoration: none;
+    }
+
+    .dc-link a:hover {
+        color: #C75C60;
+        text-decoration: none;
+    }
+    
+    .dc-link a {
+        color: #E5334F;
+        text-decoration: none;
+    }
+
+    .navig {
+        color:cornsilk;
+        font-size: 25px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        position:absolute;
+        top: 18%;
+        left: 9%;
+        right: 9%;
+
+        text-align: center;
+    }
+
+    #navi a {
+        color:azure;
+        text-decoration: none;
+    }
+    
+    #navi a:hover {
+        color: #8799A0;
+        text-decoration: none;
+    }
+    
+}
+
+.title-404 {
+    font-size: 38px;
+    font-family: 'Great Vibes', cursive;
+    color:firebrick;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: -105px;
+}
+
+.x1 {
+    font-size: 100px;
+    font-family: 'Great Vibes', cursive;
+    color:darkred;
+}
+
+.x2 {
+    font-size: 100px;
+    font-family: 'Great Vibes', cursive;
+    color:darkred;
+}
+
+.text-404 {
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #EC5048;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: -190px;
+}
+
